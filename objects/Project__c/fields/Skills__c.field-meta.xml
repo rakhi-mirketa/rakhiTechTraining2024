@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skills__c</fullName>
+    <externalId>false</externalId>
+    <label>Skills</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>HTML</fullName>
+                <default>false</default>
+                <label>HTML</label>
+            </value>
+            <value>
+                <fullName>CSS</fullName>
+                <default>false</default>
+                <label>CSS</label>
+            </value>
+            <value>
+                <fullName>PYTHON</fullName>
+                <default>false</default>
+                <label>PYTHON</label>
+            </value>
+            <value>
+                <fullName>SQL</fullName>
+                <default>false</default>
+                <label>SQL</label>
+            </value>
+            <value>
+                <fullName>LEADERSHIP</fullName>
+                <default>false</default>
+                <label>LEADERSHIP</label>
+            </value>
+            <value>
+                <fullName>DECISION- MAKING</fullName>
+                <default>false</default>
+                <label>DECISION- MAKING</label>
+            </value>
+            <value>
+                <fullName>EMPATHY</fullName>
+                <default>false</default>
+                <label>EMPATHY</label>
+            </value>
+            <value>
+                <fullName>CRITICAL THINKING</fullName>
+                <default>false</default>
+                <label>CRITICAL THINKING</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Soft-Skills</controllingFieldValue>
+            <valueName>LEADERSHIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soft-Skills</controllingFieldValue>
+            <valueName>DECISION- MAKING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soft-Skills</controllingFieldValue>
+            <valueName>EMPATHY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soft-Skills</controllingFieldValue>
+            <valueName>CRITICAL THINKING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>HTML</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>CSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>PYTHON</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>SQL</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

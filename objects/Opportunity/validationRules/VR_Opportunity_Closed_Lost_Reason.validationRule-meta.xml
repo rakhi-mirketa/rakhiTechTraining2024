@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Opportunity_Closed_Lost_Reason</fullName>
+    <active>true</active>
+    <description>Close reason is mandatory</description>
+    <errorConditionFormula>ISPICKVAL(StageName ,&quot;Closed Lost&quot;) &amp;&amp;  Amount &gt; 10000</errorConditionFormula>
+    <errorDisplayField>Amount</errorDisplayField>
+    <errorMessage>The amount is not valid</errorMessage>
+</ValidationRule>

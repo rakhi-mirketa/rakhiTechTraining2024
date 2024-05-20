@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date</fullName>
+    <active>true</active>
+    <description>Deadline</description>
+    <errorConditionFormula>(ActivityDate) &gt; TODAY()</errorConditionFormula>
+    <errorMessage>Status of task cannot be completed if Due Date is greater than today</errorMessage>
+</ValidationRule>

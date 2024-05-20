@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Uttar Pradesh</fullName>
+        <default>false</default>
+        <label>Uttar Pradesh</label>
+    </customValue>
+    <customValue>
+        <fullName>Bihar</fullName>
+        <default>false</default>
+        <label>Bihar</label>
+    </customValue>
+    <customValue>
+        <fullName>Jharkhand</fullName>
+        <default>false</default>
+        <label>Jharkhand</label>
+    </customValue>
+    <customValue>
+        <fullName>Haryana</fullName>
+        <default>false</default>
+        <label>Haryana</label>
+    </customValue>
+    <customValue>
+        <fullName>Florida</fullName>
+        <default>false</default>
+        <label>Florida</label>
+    </customValue>
+    <customValue>
+        <fullName>Alaska</fullName>
+        <default>false</default>
+        <label>Alaska</label>
+    </customValue>
+    <description>State GVS</description>
+    <masterLabel>State GVS</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
